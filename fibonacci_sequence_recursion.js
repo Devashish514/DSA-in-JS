@@ -6,7 +6,7 @@ const chalk = require("chalk");
 
 const fibo = (num)=>{
     console.log(chalk.green("Initiallizing Fibonacci Sequence......"));
-    let n1 = 0, n2 = 1, nextTerm;
+    let n1 = 0, n2 = 1, nextTerm=0;
     for(let i=0; i <= num; i++){
         console.log(chalk.yellow(n1) );
         nextTerm = n1 + n2;
@@ -22,8 +22,6 @@ const measureTime= ()=>{
 }
 measureTime()
 
-
-
 // Recursive... Approach -1
 const fiboN= (n)=>{
     if(n<=1){
@@ -38,7 +36,10 @@ const measureTimeRec= ()=>{
     console.timeEnd("fiboN()")
 }
 measureTimeRec()
+
+
 // Better Way.. Approach -2
+
 const fiboN2= (n,last2,last)=>{
     if(n==0){
         return last2;

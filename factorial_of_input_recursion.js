@@ -3,7 +3,7 @@
 const chalk = require("chalk");
 const readLine = require("readline-sync")
 const fac = (n) => {
-    if (n == 1) {   //base Condition
+    if (n == 1 || n==0) {   //base Condition
         return 1;
     } else {
         return n * fac(n - 1);
