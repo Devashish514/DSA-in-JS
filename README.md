@@ -6,12 +6,12 @@ This repository is a comprehensive collection of commonly used data structures a
 
 ## Covered Topics
 
-- [Sorting Algorithms](https://github.com/Devashish514/DSA-in-JS)
-- [Stacks](https://github.com/Devashish514/DSA-in-JS)
-- [Queues](https://github.com/Devashish514/DSA-in-JS)
-- [Sets](https://github.com/Devashish514/DSA-in-JS)
-- [Linked Lists](https://github.com/Devashish514/DSA-in-JS)
-- [Practice Problems](https://github.com/Devashish514/DSA-in-JS)
+- [Sorting Algorithms](https://github.com/Devashish514/DSA-in-JS/tree/main/Sorting)
+- [Stacks](https://github.com/Devashish514/DSA-in-JS/tree/main/Stacks)
+- [Queues](https://github.com/Devashish514/DSA-in-JS/tree/main/Queues)
+- [Sets](https://github.com/Devashish514/DSA-in-JS/tree/main/Sets)
+- [Linked Lists](https://github.com/Devashish514/DSA-in-JS/tree/main/LinkedList)
+- [Practice Problems](https://github.com/Devashish514/DSA-in-JS/tree/main/Practice-Problems)
 
 
 ## Authors
