@@ -1,16 +1,16 @@
-// Single Linked List..
-
+// Implementing Circular Linked List..
 
 class Node {
     constructor(element) {
         this.element = element;
         this.next = null;
     }
-};
+}
 
-class SLL {
+class CLL {
     constructor() {
         this.head = new Node('head');
+        this.head.next = this.head;
     }
     find(item) {
         var currNode = this.head;
@@ -49,16 +49,9 @@ class SLL {
     }
 }
 
-let list1 = new SLL();
+let cll = new CLL();
 
-list1.insert(1, "head");
-list1.insert(2, 1);
-list1.insert(3, 2);
+cll.insert(1, 'head');
+cll.insert(2, 1);
 
-list1.display();
-
-list1.remove(2);
-
-list1.display();
-
-console.log(list1.find("head"));
+console.log(cll.display());
