@@ -12,6 +12,7 @@ This repository is a comprehensive collection of commonly used data structures a
 - [Sets](https://github.com/Devashish514/DSA-in-JS/tree/main/Sets)
 - [Linked Lists](https://github.com/Devashish514/DSA-in-JS/tree/main/LinkedList)
 - [Practice Problems](https://github.com/Devashish514/DSA-in-JS/tree/main/Practice-Problems)
+- [Trees](https://github.com/Devashish514/DSA-in-JS/tree/main/Trees)
 
 
 ## Authors
